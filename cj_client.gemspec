@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{A Ruby wrapper for the Commission Junction REST API.}
   s.description = %q{A Ruby wrapper for the Commission Junction REST API.}
 
+  s.add_dependency 'httparty', '~> 0.8.3'
+
   s.files         = `git ls-files`.split("\n") - ['specs.watchr']
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }

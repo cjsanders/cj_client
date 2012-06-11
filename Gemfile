@@ -1,6 +1,5 @@
 source :rubygems
-
-gem 'httparty'
+gemspec
 
 group :test do
   gem 'webmock'
