@@ -12,6 +12,10 @@ module CjClient
       @response = self.class.get('/v3/advertiser-lookup', :query => params)['cj_api']['advertisers']
     end
 
+    def advertisers
+      @response['advertiser']
+    end
+
     def method_missing(name, *args, &block)
       @response.has_key?(name.to_s) ? @response[name.to_s] : super
     end

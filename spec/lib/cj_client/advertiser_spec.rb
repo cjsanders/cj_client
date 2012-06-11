@@ -63,5 +63,17 @@ describe CjClient::Advertiser do
       end
 
     end
+
+    describe "advertisers" do
+
+      before do
+        cj.lookup(:'advertiser-ids' => :joined)
+      end
+
+      it "must return an array for advertisers" do
+        cj.advertisers.must_be_instance_of Array
+      end
+      
+    end
   end
 end
