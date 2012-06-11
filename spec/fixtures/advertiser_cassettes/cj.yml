@@ -1,0 +1,307 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://advertiser-lookup.api.cj.com/v3/advertiser-lookup?advertiser-ids=joined
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 00a5c63b7f3ccad1b774aae282c8997423ce07c24b0941689c3189545ba2d94b2ba88aa297828b40fe45da17d88591d8f64f3de2923ec0fb0b9c442d4ce9adf6d3/00a2a7291383e380f7df1a185bb85590b5dcde920dabcc28c730778d74c8092a8ddaf94c2e37e098f75405e1ecc641e5df62462f99ec68572a980d8d33d5916fe9
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Resin/3.1.8
+      Content-Type:
+      - application/xml; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 10 Jun 2012 19:26:56 GMT
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <cj-api><advertisers total-matched="1017" records-returned="25" page-number="1"><advertiser><advertiser-id>807</advertiser-id><account-status>Active</account-status><seven-day-epc>39.38</seven-day-epc><three-month-epc>33.43</three-month-epc><language>en</language><advertiser-name>GiftTree</advertiser-name><program-url>http://www.gifttree.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>GiftTree
+        Sale</name><type>sale</type><id>105</id><commission><default>12.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser><advertiser><advertiser-id>171316</advertiser-id><account-status>Active</account-status><seven-day-epc>2.53</seven-day-epc><three-month-epc>2.42</three-month-epc><language>en</language><advertiser-name>FORZIERI
+        Italia</advertiser-name><program-url>http://www.eu.forzieri.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Malls</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>357</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>149938</advertiser-id><account-status>Active</account-status><seven-day-epc>9.90</seven-day-epc><three-month-epc>12.92</three-month-epc><language>en</language><advertiser-name>MisterArt.com</advertiser-name><program-url>http://www.misterart.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Art/Photo/Music</parent><child>Art</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>294</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>198699</advertiser-id><account-status>Active</account-status><seven-day-epc>5.28</seven-day-epc><three-month-epc>4.31</three-month-epc><language>en</language><advertiser-name>Wickers
+        Sportswear, Inc.</advertiser-name><program-url>http://www.wickers.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Apparel</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>435</id><commission><default>7.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>184378</advertiser-id><account-status>Active</account-status><seven-day-epc>2.12</seven-day-epc><three-month-epc>2.96</three-month-epc><language>en</language><advertiser-name>Maps.com</advertiser-name><program-url>http://www.maps.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Travel</parent><child>Accessories</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>394</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>237343</advertiser-id><account-status>Active</account-status><seven-day-epc>12.44</seven-day-epc><three-month-epc>8.30</three-month-epc><language>en</language><advertiser-name>PC
+        Mall Affiliate Advantage Network</advertiser-name><program-url>http://www.pcmall.com/home</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Consumer Electronics</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>ITEM
+        SALE</name><type>advanced sale</type><id>302414</id><commission><itemlist
+        name="6% Commission" id="7835">6.00%</itemlist><itemlist name="Non-Commissionable
+        Items" id="8342">USD 0.00</itemlist><default>3.00%</default></commission></action><action><name>SBN
+        Lead</name><type>lead</type><id>333115</id><commission><default type="item-level">USD
+        4.00</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>223626</advertiser-id><account-status>Active</account-status><seven-day-epc>2.48</seven-day-epc><three-month-epc>1.24</three-month-epc><language>en</language><advertiser-name>Online
+        Sports</advertiser-name><program-url>http://www.onlinesports.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Sports</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>507</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>SmartLink</link-type></link-types></advertiser><advertiser><advertiser-id>246730</advertiser-id><account-status>Active</account-status><seven-day-epc>14.08</seven-day-epc><three-month-epc>12.39</three-month-epc><language>en</language><advertiser-name>EssayEdge.com
+        &amp; ResumeEdge.com</advertiser-name><program-url>http://www.resumeedge.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Careers</parent><child>Employment</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>812</id><commission><default>12.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser><advertiser><advertiser-id>247840</advertiser-id><account-status>Active</account-status><seven-day-epc>25.70</seven-day-epc><three-month-epc>21.18</three-month-epc><language>en</language><advertiser-name>BIGDOGS.com</advertiser-name><program-url>http://www.bigdogs.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Men''s</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>834</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>256357</advertiser-id><account-status>Active</account-status><seven-day-epc>30.51</seven-day-epc><three-month-epc>12.47</three-month-epc><language>en</language><advertiser-name>Cooltan
+        Tan Through Shirts/Swimwear</advertiser-name><program-url>http://www.tanthrough.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Women''s</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>901</id><commission><default>14.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>260551</advertiser-id><account-status>Active</account-status><seven-day-epc>49.19</seven-day-epc><three-month-epc>50.78</three-month-epc><language>en</language><advertiser-name>Backcountry.com</advertiser-name><program-url>http://www.backcountry.com</program-url><relationship-status>joined</relationship-status><network-rank>5</network-rank><primary-category><parent>Recreation
+        &amp; Leisure</parent><child>Outdoors</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>BackCountry.com</name><type>advanced
+        sale</type><id>303046</id><commission><default>8.00%</default></commission></action><action><name>DogFunk
+        Purchase</name><type>advanced sale</type><id>334911</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>293124</advertiser-id><account-status>Active</account-status><seven-day-epc>32.38</seven-day-epc><three-month-epc>26.23</three-month-epc><language>en</language><advertiser-name>Love
+        Scent Pheromone</advertiser-name><program-url>http://love-scent.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Beauty</parent><child>Fragrance</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1296</id><commission><default>30.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>306807</advertiser-id><account-status>Active</account-status><seven-day-epc>26.68</seven-day-epc><three-month-epc>23.40</three-month-epc><language>en</language><advertiser-name>Bonsai
+        Boy of New York</advertiser-name><program-url>http://www.bonsaiboy.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1438</id><commission><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>307812</advertiser-id><account-status>Active</account-status><seven-day-epc>2.60</seven-day-epc><three-month-epc>5.35</three-month-epc><language>en</language><advertiser-name>FineJewelers.com</advertiser-name><program-url>http://www.finejewelers.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Accessories</parent><child>Jewelry</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1444</id><commission><default>5.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>SmartLink</link-type></link-types></advertiser><advertiser><advertiser-id>398977</advertiser-id><account-status>Active</account-status><seven-day-epc>9.25</seven-day-epc><three-month-epc>10.37</three-month-epc><language>en</language><advertiser-name>Joann.com</advertiser-name><program-url>http://www.joann.com/joann/home/home.jsp</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Art/Photo/Music</parent><child>Art</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1803</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>418963</advertiser-id><account-status>Active</account-status><seven-day-epc>180.18</seven-day-epc><three-month-epc>202.73</three-month-epc><language>en</language><advertiser-name>123Inkjets.com</advertiser-name><program-url>http://www.123Inkjets.com</program-url><relationship-status>joined</relationship-status><network-rank>5</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Computer HW</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>123inkjets.com
+        Sale</name><type>advanced sale</type><id>312885</id><commission><itemlist
+        name="OEM" id="173">5.00%</itemlist><itemlist name="Office Supply" id="11437">5.00%</itemlist><default>28.00%</default></commission></action><action><name>Google
+        Checkout</name><type>advanced sale</type><id>325829</id><commission><itemlist
+        name="OEM" id="173">5.00%</itemlist><itemlist name="Office Supply" id="11437">5.00%</itemlist><default>28.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>422997</advertiser-id><account-status>Active</account-status><seven-day-epc>16.89</seven-day-epc><three-month-epc>16.32</three-month-epc><language>en</language><advertiser-name>FansEdge.com</advertiser-name><program-url>http://www.fansedge.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Sports</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2034</id><commission><default>7.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Flash
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>423019</advertiser-id><account-status>Active</account-status><seven-day-epc>25.72</seven-day-epc><three-month-epc>5.79</three-month-epc><language>en</language><advertiser-name>Ties.com</advertiser-name><program-url>http://www.ties.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Malls</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Wildties.com
+        Purchase</name><type>sale</type><id>2037</id><commission><default>15.00%</default></commission></action><action><name>Neckties.com
+        Purchase</name><type>sale</type><id>320958</id><commission><default>15.00%</default></commission></action><action><name>Ties.com
+        Purchase</name><type>sale</type><id>320959</id><commission><default>15.00%</default></commission></action><action><name>www.scarves.com</name><type>advanced
+        sale</type><id>343576</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>444838</advertiser-id><account-status>Active</account-status><seven-day-epc>36.52</seven-day-epc><three-month-epc>25.91</three-month-epc><language>en</language><advertiser-name>OneShare.com</advertiser-name><program-url>http://www.oneshare.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2089</id><commission><default
+        type="item-level">USD 10.00</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type><link-type>Flash Link</link-type></link-types></advertiser><advertiser><advertiser-id>446602</advertiser-id><account-status>Active</account-status><seven-day-epc>11.10</seven-day-epc><three-month-epc>8.49</three-month-epc><language>en</language><advertiser-name>eBatts.com</advertiser-name><program-url>http://www.ebatts.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Consumer Electronics</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2115</id><commission><default>9.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>445101</advertiser-id><account-status>Active</account-status><seven-day-epc>25.10</seven-day-epc><three-month-epc>30.21</three-month-epc><language>en</language><advertiser-name>Domain.com</advertiser-name><program-url>http://www.dotster.com/</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Online
+        Services</parent><child>Domain Registrations</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Item
+        Based Sale </name><type>advanced sale</type><id>318850</id><commission><itemlist
+        name="Annual Basic Hosting" id="7373">USD 83.00</itemlist><itemlist name="Annual
+        Deluxe Hosting" id="7374">USD 83.00</itemlist><itemlist name="Annual Ultra
+        Hosting" id="7375">USD 110.00</itemlist><itemlist name="Product List" id="14642">20.00%</itemlist><itemlist
+        name="Non-Commissionable" id="14643">USD 0.00</itemlist><default>20.00%</default></commission></action><action><name>Domain.com
+        Purchase</name><type>advanced sale</type><id>351625</id><commission><itemlist
+        name="Annual Basic Hosting" id="7373">USD 83.00</itemlist><itemlist name="Annual
+        Deluxe Hosting" id="7374">USD 83.00</itemlist><itemlist name="Annual Ultra
+        Hosting" id="7375">USD 110.00</itemlist><itemlist name="Product List" id="14642">20.00%</itemlist><itemlist
+        name="Non-Commissionable" id="14643">USD 0.00</itemlist><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>466941</advertiser-id><account-status>Active</account-status><seven-day-epc>62.25</seven-day-epc><three-month-epc>53.00</three-month-epc><language>en</language><advertiser-name>Sea
+        Eagle Inflatable Boats</advertiser-name><program-url>http://www.seaeagle.com/track.asp?keycode=CJ</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Water Sports</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>New
+        Customer Sale</name><type>sale</type><id>2260</id><commission><default>15.00%</default></commission></action><action><name>Existing
+        Customer Sale</name><type>sale</type><id>300205</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>494998</advertiser-id><account-status>Active</account-status><seven-day-epc>6.55</seven-day-epc><three-month-epc>6.16</three-month-epc><language>en</language><advertiser-name>Smith
+        Micro Software</advertiser-name><program-url>http://my.smithmicro.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Computer SW</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale
+        - Cart 1</name><type>advanced sale</type><id>317573</id><commission><itemlist
+        name="20" id="3895">20.00%</itemlist><itemlist name="30" id="3896">30.00%</itemlist><default>20.00%</default></commission></action><action><name>Sale
+        - Cart 2</name><type>advanced sale</type><id>337558</id><commission><itemlist
+        name="20" id="3895">20.00%</itemlist><itemlist name="30" id="3896">30.00%</itemlist><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>520129</advertiser-id><account-status>Active</account-status><seven-day-epc>23.16</seven-day-epc><three-month-epc>19.08</three-month-epc><language>en</language><advertiser-name>eCampus.com</advertiser-name><program-url>http://www.ecampus.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Books/Media</parent><child>Books</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Lead</name><type>lead</type><id>2539</id><commission><default
+        type="item-level">USD 3.00</default></commission></action><action><name>Item
+        Based Action</name><type>advanced sale</type><id>317632</id><commission><itemlist
+        name="New Books" id="3828">5.00%</itemlist><itemlist name="Used Books" id="3829">6.00%</itemlist><itemlist
+        name="ebooks" id="7210">7.00%</itemlist><itemlist name="Merchandise" id="7212">6.00%</itemlist><itemlist
+        name="Rentals" id="8131">8.00%</itemlist><default>4.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>513872</advertiser-id><account-status>Active</account-status><seven-day-epc>6.06</seven-day-epc><three-month-epc>10.78</three-month-epc><language>en</language><advertiser-name>bloomingbulb.com</advertiser-name><program-url>http://www.bloomingbulb.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Home
+        &amp; Garden</parent><child>Garden</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2503</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser></advertisers></cj-api>'
+    http_version: 
+  recorded_at: Sun, 10 Jun 2012 19:26:58 GMT
+- request:
+    method: get
+    uri: https://advertiser-lookup.api.cj.com/v3/advertiser-lookup?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 00a5c63b7f3ccad1b774aae282c8997423ce07c24b0941689c3189545ba2d94b2ba88aa297828b40fe45da17d88591d8f64f3de2923ec0fb0b9c442d4ce9adf6d3/00a2a7291383e380f7df1a185bb85590b5dcde920dabcc28c730778d74c8092a8ddaf94c2e37e098f75405e1ecc641e5df62462f99ec68572a980d8d33d5916fe9
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Resin/3.1.8
+      Content-Type:
+      - application/xml; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 10 Jun 2012 19:30:23 GMT
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <cj-api><error-message>At least one of the following parameters is required:
+        advertiser-ids,keywords,advertiser-name</error-message></cj-api>'
+    http_version: 
+  recorded_at: Sun, 10 Jun 2012 19:30:24 GMT
+- request:
+    method: get
+    uri: https://advertiser-lookup.api.cj.com/v3/advertiser-lookup?advertiser-ids=joined
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 00a5c63b7f3ccad1b774aae282c8997423ce07c24b0941689c3189545ba2d94b2ba88aa297828b40fe45da17d88591d8f64f3de2923ec0fb0b9c442d4ce9adf6d3/00a2a7291383e380f7df1a185bb85590b5dcde920dabcc28c730778d74c8092a8ddaf94c2e37e098f75405e1ecc641e5df62462f99ec68572a980d8d33d5916fe9
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Resin/3.1.8
+      Content-Type:
+      - application/xml; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 10 Jun 2012 19:34:12 GMT
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <cj-api><advertisers total-matched="1017" records-returned="25" page-number="1"><advertiser><advertiser-id>807</advertiser-id><account-status>Active</account-status><seven-day-epc>39.38</seven-day-epc><three-month-epc>33.43</three-month-epc><language>en</language><advertiser-name>GiftTree</advertiser-name><program-url>http://www.gifttree.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>GiftTree
+        Sale</name><type>sale</type><id>105</id><commission><default>12.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser><advertiser><advertiser-id>171316</advertiser-id><account-status>Active</account-status><seven-day-epc>2.53</seven-day-epc><three-month-epc>2.42</three-month-epc><language>en</language><advertiser-name>FORZIERI
+        Italia</advertiser-name><program-url>http://www.eu.forzieri.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Malls</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>357</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>149938</advertiser-id><account-status>Active</account-status><seven-day-epc>9.90</seven-day-epc><three-month-epc>12.92</three-month-epc><language>en</language><advertiser-name>MisterArt.com</advertiser-name><program-url>http://www.misterart.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Art/Photo/Music</parent><child>Art</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>294</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>198699</advertiser-id><account-status>Active</account-status><seven-day-epc>5.28</seven-day-epc><three-month-epc>4.31</three-month-epc><language>en</language><advertiser-name>Wickers
+        Sportswear, Inc.</advertiser-name><program-url>http://www.wickers.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Apparel</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>435</id><commission><default>7.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>184378</advertiser-id><account-status>Active</account-status><seven-day-epc>2.12</seven-day-epc><three-month-epc>2.96</three-month-epc><language>en</language><advertiser-name>Maps.com</advertiser-name><program-url>http://www.maps.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Travel</parent><child>Accessories</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>394</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>237343</advertiser-id><account-status>Active</account-status><seven-day-epc>12.44</seven-day-epc><three-month-epc>8.30</three-month-epc><language>en</language><advertiser-name>PC
+        Mall Affiliate Advantage Network</advertiser-name><program-url>http://www.pcmall.com/home</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Consumer Electronics</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>ITEM
+        SALE</name><type>advanced sale</type><id>302414</id><commission><itemlist
+        name="6% Commission" id="7835">6.00%</itemlist><itemlist name="Non-Commissionable
+        Items" id="8342">USD 0.00</itemlist><default>3.00%</default></commission></action><action><name>SBN
+        Lead</name><type>lead</type><id>333115</id><commission><default type="item-level">USD
+        4.00</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>223626</advertiser-id><account-status>Active</account-status><seven-day-epc>2.48</seven-day-epc><three-month-epc>1.24</three-month-epc><language>en</language><advertiser-name>Online
+        Sports</advertiser-name><program-url>http://www.onlinesports.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Sports</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>507</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>SmartLink</link-type></link-types></advertiser><advertiser><advertiser-id>246730</advertiser-id><account-status>Active</account-status><seven-day-epc>14.08</seven-day-epc><three-month-epc>12.39</three-month-epc><language>en</language><advertiser-name>EssayEdge.com
+        &amp; ResumeEdge.com</advertiser-name><program-url>http://www.resumeedge.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Careers</parent><child>Employment</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>812</id><commission><default>12.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser><advertiser><advertiser-id>247840</advertiser-id><account-status>Active</account-status><seven-day-epc>25.70</seven-day-epc><three-month-epc>21.18</three-month-epc><language>en</language><advertiser-name>BIGDOGS.com</advertiser-name><program-url>http://www.bigdogs.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Men''s</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>834</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>256357</advertiser-id><account-status>Active</account-status><seven-day-epc>30.51</seven-day-epc><three-month-epc>12.47</three-month-epc><language>en</language><advertiser-name>Cooltan
+        Tan Through Shirts/Swimwear</advertiser-name><program-url>http://www.tanthrough.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Women''s</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>901</id><commission><default>14.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>260551</advertiser-id><account-status>Active</account-status><seven-day-epc>49.19</seven-day-epc><three-month-epc>50.78</three-month-epc><language>en</language><advertiser-name>Backcountry.com</advertiser-name><program-url>http://www.backcountry.com</program-url><relationship-status>joined</relationship-status><network-rank>5</network-rank><primary-category><parent>Recreation
+        &amp; Leisure</parent><child>Outdoors</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>BackCountry.com</name><type>advanced
+        sale</type><id>303046</id><commission><default>8.00%</default></commission></action><action><name>DogFunk
+        Purchase</name><type>advanced sale</type><id>334911</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>293124</advertiser-id><account-status>Active</account-status><seven-day-epc>32.38</seven-day-epc><three-month-epc>26.23</three-month-epc><language>en</language><advertiser-name>Love
+        Scent Pheromone</advertiser-name><program-url>http://love-scent.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Beauty</parent><child>Fragrance</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1296</id><commission><default>30.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>306807</advertiser-id><account-status>Active</account-status><seven-day-epc>26.68</seven-day-epc><three-month-epc>23.40</three-month-epc><language>en</language><advertiser-name>Bonsai
+        Boy of New York</advertiser-name><program-url>http://www.bonsaiboy.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1438</id><commission><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>307812</advertiser-id><account-status>Active</account-status><seven-day-epc>2.60</seven-day-epc><three-month-epc>5.35</three-month-epc><language>en</language><advertiser-name>FineJewelers.com</advertiser-name><program-url>http://www.finejewelers.com</program-url><relationship-status>joined</relationship-status><network-rank>1</network-rank><primary-category><parent>Accessories</parent><child>Jewelry</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1444</id><commission><default>5.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>SmartLink</link-type></link-types></advertiser><advertiser><advertiser-id>398977</advertiser-id><account-status>Active</account-status><seven-day-epc>9.25</seven-day-epc><three-month-epc>10.37</three-month-epc><language>en</language><advertiser-name>Joann.com</advertiser-name><program-url>http://www.joann.com/joann/home/home.jsp</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Art/Photo/Music</parent><child>Art</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>1803</id><commission><default>8.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>418963</advertiser-id><account-status>Active</account-status><seven-day-epc>180.18</seven-day-epc><three-month-epc>202.73</three-month-epc><language>en</language><advertiser-name>123Inkjets.com</advertiser-name><program-url>http://www.123Inkjets.com</program-url><relationship-status>joined</relationship-status><network-rank>5</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Computer HW</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>123inkjets.com
+        Sale</name><type>advanced sale</type><id>312885</id><commission><itemlist
+        name="OEM" id="173">5.00%</itemlist><itemlist name="Office Supply" id="11437">5.00%</itemlist><default>28.00%</default></commission></action><action><name>Google
+        Checkout</name><type>advanced sale</type><id>325829</id><commission><itemlist
+        name="OEM" id="173">5.00%</itemlist><itemlist name="Office Supply" id="11437">5.00%</itemlist><default>28.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>422997</advertiser-id><account-status>Active</account-status><seven-day-epc>16.89</seven-day-epc><three-month-epc>16.32</three-month-epc><language>en</language><advertiser-name>FansEdge.com</advertiser-name><program-url>http://www.fansedge.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Sports</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2034</id><commission><default>7.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Flash
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>423019</advertiser-id><account-status>Active</account-status><seven-day-epc>25.72</seven-day-epc><three-month-epc>5.79</three-month-epc><language>en</language><advertiser-name>Ties.com</advertiser-name><program-url>http://www.ties.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Clothing/Apparel</parent><child>Malls</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Wildties.com
+        Purchase</name><type>sale</type><id>2037</id><commission><default>15.00%</default></commission></action><action><name>Neckties.com
+        Purchase</name><type>sale</type><id>320958</id><commission><default>15.00%</default></commission></action><action><name>Ties.com
+        Purchase</name><type>sale</type><id>320959</id><commission><default>15.00%</default></commission></action><action><name>www.scarves.com</name><type>advanced
+        sale</type><id>343576</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>444838</advertiser-id><account-status>Active</account-status><seven-day-epc>36.52</seven-day-epc><three-month-epc>25.91</three-month-epc><language>en</language><advertiser-name>OneShare.com</advertiser-name><program-url>http://www.oneshare.com</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Gifts
+        &amp; Flowers</parent><child>Gifts</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2089</id><commission><default
+        type="item-level">USD 10.00</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type><link-type>Flash Link</link-type></link-types></advertiser><advertiser><advertiser-id>446602</advertiser-id><account-status>Active</account-status><seven-day-epc>11.10</seven-day-epc><three-month-epc>8.49</three-month-epc><language>en</language><advertiser-name>eBatts.com</advertiser-name><program-url>http://www.ebatts.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Consumer Electronics</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2115</id><commission><default>9.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>445101</advertiser-id><account-status>Active</account-status><seven-day-epc>25.10</seven-day-epc><three-month-epc>30.21</three-month-epc><language>en</language><advertiser-name>Domain.com</advertiser-name><program-url>http://www.dotster.com/</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Online
+        Services</parent><child>Domain Registrations</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Item
+        Based Sale </name><type>advanced sale</type><id>318850</id><commission><itemlist
+        name="Annual Basic Hosting" id="7373">USD 83.00</itemlist><itemlist name="Annual
+        Deluxe Hosting" id="7374">USD 83.00</itemlist><itemlist name="Annual Ultra
+        Hosting" id="7375">USD 110.00</itemlist><itemlist name="Product List" id="14642">20.00%</itemlist><itemlist
+        name="Non-Commissionable" id="14643">USD 0.00</itemlist><default>20.00%</default></commission></action><action><name>Domain.com
+        Purchase</name><type>advanced sale</type><id>351625</id><commission><itemlist
+        name="Annual Basic Hosting" id="7373">USD 83.00</itemlist><itemlist name="Annual
+        Deluxe Hosting" id="7374">USD 83.00</itemlist><itemlist name="Annual Ultra
+        Hosting" id="7375">USD 110.00</itemlist><itemlist name="Product List" id="14642">20.00%</itemlist><itemlist
+        name="Non-Commissionable" id="14643">USD 0.00</itemlist><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>466941</advertiser-id><account-status>Active</account-status><seven-day-epc>62.25</seven-day-epc><three-month-epc>53.00</three-month-epc><language>en</language><advertiser-name>Sea
+        Eagle Inflatable Boats</advertiser-name><program-url>http://www.seaeagle.com/track.asp?keycode=CJ</program-url><relationship-status>joined</relationship-status><network-rank>3</network-rank><primary-category><parent>Sports
+        &amp; Fitness</parent><child>Water Sports</child></primary-category><performance-incentives>true</performance-incentives><actions><action><name>New
+        Customer Sale</name><type>sale</type><id>2260</id><commission><default>15.00%</default></commission></action><action><name>Existing
+        Customer Sale</name><type>sale</type><id>300205</id><commission><default>10.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type></link-types></advertiser><advertiser><advertiser-id>494998</advertiser-id><account-status>Active</account-status><seven-day-epc>6.55</seven-day-epc><three-month-epc>6.16</three-month-epc><language>en</language><advertiser-name>Smith
+        Micro Software</advertiser-name><program-url>http://my.smithmicro.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Computer
+        &amp; Electronics</parent><child>Computer SW</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale
+        - Cart 1</name><type>advanced sale</type><id>317573</id><commission><itemlist
+        name="20" id="3895">20.00%</itemlist><itemlist name="30" id="3896">30.00%</itemlist><default>20.00%</default></commission></action><action><name>Sale
+        - Cart 2</name><type>advanced sale</type><id>337558</id><commission><itemlist
+        name="20" id="3895">20.00%</itemlist><itemlist name="30" id="3896">30.00%</itemlist><default>20.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type></link-types></advertiser><advertiser><advertiser-id>520129</advertiser-id><account-status>Active</account-status><seven-day-epc>23.16</seven-day-epc><three-month-epc>19.08</three-month-epc><language>en</language><advertiser-name>eCampus.com</advertiser-name><program-url>http://www.ecampus.com</program-url><relationship-status>joined</relationship-status><network-rank>4</network-rank><primary-category><parent>Books/Media</parent><child>Books</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Lead</name><type>lead</type><id>2539</id><commission><default
+        type="item-level">USD 3.00</default></commission></action><action><name>Item
+        Based Action</name><type>advanced sale</type><id>317632</id><commission><itemlist
+        name="New Books" id="3828">5.00%</itemlist><itemlist name="Used Books" id="3829">6.00%</itemlist><itemlist
+        name="ebooks" id="7210">7.00%</itemlist><itemlist name="Merchandise" id="7212">6.00%</itemlist><itemlist
+        name="Rentals" id="8131">8.00%</itemlist><default>4.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Advanced Link</link-type><link-type>Content
+        Link</link-type></link-types></advertiser><advertiser><advertiser-id>513872</advertiser-id><account-status>Active</account-status><seven-day-epc>6.06</seven-day-epc><three-month-epc>10.78</three-month-epc><language>en</language><advertiser-name>bloomingbulb.com</advertiser-name><program-url>http://www.bloomingbulb.com</program-url><relationship-status>joined</relationship-status><network-rank>2</network-rank><primary-category><parent>Home
+        &amp; Garden</parent><child>Garden</child></primary-category><performance-incentives>false</performance-incentives><actions><action><name>Sale</name><type>sale</type><id>2503</id><commission><default>15.00%</default></commission></action></actions><link-types><link-type>Text
+        Link</link-type><link-type>Banner</link-type><link-type>Content Link</link-type></link-types></advertiser></advertisers></cj-api>'
+    http_version: 
+  recorded_at: Sun, 10 Jun 2012 19:34:14 GMT
+- request:
+    method: get
+    uri: https://advertiser-lookup.api.cj.com/v3/advertiser-lookup?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 00a5c63b7f3ccad1b774aae282c8997423ce07c24b0941689c3189545ba2d94b2ba88aa297828b40fe45da17d88591d8f64f3de2923ec0fb0b9c442d4ce9adf6d3/00a2a7291383e380f7df1a185bb85590b5dcde920dabcc28c730778d74c8092a8ddaf94c2e37e098f75405e1ecc641e5df62462f99ec68572a980d8d33d5916fe9
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Resin/3.1.8
+      Content-Type:
+      - application/xml; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Sun, 10 Jun 2012 19:36:17 GMT
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <cj-api><error-message>At least one of the following parameters is required:
+        advertiser-ids,keywords,advertiser-name</error-message></cj-api>'
+    http_version: 
+  recorded_at: Sun, 10 Jun 2012 19:36:19 GMT
+recorded_with: VCR 2.2.0
